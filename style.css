@@ -68,7 +68,7 @@ body {
 
 .logo:hover {
     transform: scale(1.05) rotate(-1deg);
-    text-shadow: 0 0 5px rgb(93, 142, 101), 0 0 10px rgb(42, 255, 39);
+    text-shadow: 0 0 5px rgb(145, 15, 138), 0 0 10px rgb(42, 255, 39);
 }
 
 /* Sign Up Button */
@@ -336,6 +336,54 @@ body {
 .review-date {
     font-size: 0.9rem;
     color: darkgray;
+}
+
+
+/* Focus Section */
+.focus-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: rgb(243, 240, 240);
+}
+
+.focus-heading {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.focus-quote {
+    font-size: 1.2rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+.focus-btn {
+    background-color: blue;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.focus-btn:hover {
+    background-color: navy;
+    transform: translateY(-2px);
+}
+
+.focus-image {
+    margin-top: 3rem;
+}
+
+.focus-image img {
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 
