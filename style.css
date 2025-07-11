@@ -1,0 +1,140 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+}
+
+
+/* Banner with Background */
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('images/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding: 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Logo Styles */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    animation: logoGlow 2s ease-in-out infinite alternate;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.logo-text {
+    color: rgb(139, 11, 174);
+}
+
+.logo-accent {
+    color: rgb(35, 23, 105);
+}
+
+/* Hover effect on logo */
+.logo:hover {
+    transform: scale(1.05) rotate(-1deg);
+    text-shadow: 0 0 10px yellow, 0 0 15px orange;
+}
+
+/* Sign Up Button */
+.signup-btn {
+    background: mediumslateblue;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect on button */
+.signup-btn:hover {
+    background-color: blueviolet;
+    transform: scale(1.05) translateY(-2px);
+}
+
+/* Banner Content Styles */
+.banner-content {
+    color: black;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.banner-heading {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner-subtitle {
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.stay-focused-btn {
+    background: green;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Hover effect on stay focused button */
+.stay-focused-btn:hover {
+    background-color: darkgreen;
+    transform: scale(1.05) translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Logo Animation */
+@keyframes logoGlow {
+    0% {
+        text-shadow: 0 0 5px white;
+    }
+
+    100% {
+        text-shadow: 0 0 20px rgb(31, 26, 3), 0 0 30px rgb(174, 15, 198);
+    }
+}
