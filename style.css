@@ -68,7 +68,7 @@ body {
 
 .logo:hover {
     transform: scale(1.05) rotate(-1deg);
-    text-shadow: 0 0 10px yellow, 0 0 15px orange;
+    text-shadow: 0 0 5px rgb(93, 142, 101), 0 0 10px rgb(42, 255, 39);
 }
 
 /* Sign Up Button */
@@ -426,4 +426,44 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(75, 0, 130, 0.4);
     background: linear-gradient(135deg, mediumslateblue, darkviolet);
+}
+
+
+/* Footer Section */
+.footer {
+    background: rgb(243, 240, 240);
+    color: black;
+    padding: 3rem 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.footer-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: indigo;
+    transform: translateY(-2px);
 }
