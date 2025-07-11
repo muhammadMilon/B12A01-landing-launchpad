@@ -66,7 +66,6 @@ body {
     color: rgb(35, 23, 105);
 }
 
-/* Hover effect on logo */
 .logo:hover {
     transform: scale(1.05) rotate(-1deg);
     text-shadow: 0 0 10px yellow, 0 0 15px orange;
@@ -84,7 +83,6 @@ body {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover effect on button */
 .signup-btn:hover {
     background-color: blueviolet;
     transform: scale(1.05) translateY(-2px);
@@ -120,7 +118,6 @@ body {
     cursor: pointer;
 }
 
-/* Hover effect on stay focused button */
 .stay-focused-btn:hover {
     background-color: darkgreen;
     transform: scale(1.05) translateY(-2px);
@@ -137,4 +134,65 @@ body {
     100% {
         text-shadow: 0 0 20px rgb(31, 26, 3), 0 0 30px rgb(174, 15, 198);
     }
+}
+
+
+/* Action Section */
+.action-section {
+    padding: 5rem 0;
+    background: rgb(242, 246, 249);
+}
+
+.action-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.action-content {
+    padding: 2rem;
+}
+
+.action-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: midnightblue;
+    font-weight: 700;
+}
+
+.action-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: rgb(0, 4, 8);
+    line-height: 1.7;
+}
+
+.launch-btn {
+    background: linear-gradient(135deg, mediumseagreen, seagreen);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(60, 179, 113, 0.3);
+}
+
+.launch-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(60, 179, 113, 0.4);
+    background: linear-gradient(135deg, seagreen, darkgreen);
+}
+
+.action-image img {
+    width: 100%;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
