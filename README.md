@@ -6,7 +6,7 @@ Welcome to **FocusedThako**, a simple and elegant landing page designed to help 
 
 ## 🌟 Demo
 
-📺 **Live Preview:** _[Not Deployed – You can clone and run locally]_  
+📺 **Live Preview:** [Click Here](https://muhammadmilon.github.io/B12A01-landing-launchpad/)  
 📂 **Project Folder:** Contains `index.html`, `style.css`, and an `images/` folder for assets
 
 ---
@@ -31,6 +31,6 @@ This project was created as part of a web development assignment to practice bui
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/B12A01-landing-launchpad.git
+git clone https://github.com/muhammadMilon/B12A01-landing-launchpad.git
 cd B12A01-landing-launchpad
 start index.html
